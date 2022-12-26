@@ -1,0 +1,11 @@
+.star-wars__titulo {
+    font-family: var(--fonte-raleway700);
+    height: 26px;
+}
+
+.ver__tudo {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--fonte-raleway700);
+}
+
