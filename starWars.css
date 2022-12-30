@@ -11,25 +11,51 @@
     color: var(--color-titulo);
 }
 
-.ver__tudo {
+.ver__tudo , .ver__produto {
     text-decoration: none;
     color: var(--blue);
     font-family: var(--fonte-raleway700);
     font-size: 14px;
-}
-
-
-.imagens__starWars{ 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0 1em;
-    align-items: center;
-    gap: 7px;
-   
+    font-weight: 700;
 }
 
 .section__star-wars {
     width: 49%;
-    padding: 0.5;
+}
+
+.imagens__starWars{ 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1em;
+   
+}
+
+
+
+
+.produtos__1 {
+    
+    
+}
+
+.produtos__2 {
+ 
+}
+
+.ver__produto {
+    
+}
+
+.produto__xyz {
+    font-family: var(--fonte-raleway500);
+    font-size: 14px;
+    color: var(--color-titulo);
+
+}
+
+.preco {
+    color: var(--color-titulo);
+    font-family: var(--fonte-raleway700);
+    font-weight: 700;
+    font-size: 16px;
 }
