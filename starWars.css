@@ -1,11 +1,11 @@
-.star__wars {
+.star__wars , .console, .diversos {
     display: flex;
     align-items: center;
     padding: 2em 1.5em;
     justify-content: space-between;
 }
 
-.star-wars__titulo {
+.star-wars__titulo , .console__titulo, .diversos__titulo {
     font-family: var(--fonte-raleway700);
     font-size: 22px;
     color: var(--color-titulo);
@@ -19,31 +19,15 @@
     font-weight: 700;
 }
 
-.section__star-wars {
+.section__star-wars, .section__console, .section__diversos {
     width: 49%;
 }
 
-.imagens__starWars{ 
+.imagens__starWars , .console__imagens , .diversos__imagens { 
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 1em;
    
-}
-
-
-
-
-.produtos__1 {
-    
-    
-}
-
-.produtos__2 {
- 
-}
-
-.ver__produto {
-    
 }
 
 .produto__xyz {
