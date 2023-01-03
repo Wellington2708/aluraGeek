@@ -19,16 +19,29 @@
     font-weight: 700;
 }
 
-.section__star-wars, .section__console, .section__diversos {
+/*.section__star-wars, .section__console, .section__diversos {
     width: 49%;
 }
+*/
 
-.imagens__starWars , .console__imagens , .diversos__imagens { 
+ .imagens__starWars .imagens_produtos-StarWars {
+    display: flex;
+    margin-left: 1em;
+}
+
+.section__star-wars {
+    margin: 0 0.5em;
+
+}
+
+
+
+/*.imagens__starWars , .console__imagens , .diversos__imagens { 
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 1em;
    
-}
+}*/
 
 .produto__xyz {
     font-family: var(--fonte-raleway500);
