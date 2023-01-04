@@ -1,7 +1,7 @@
 .star__wars , .console, .diversos {
     display: flex;
     align-items: center;
-    padding: 2em 1.5em;
+    padding: 2em 1em;
     justify-content: space-between;
 }
 
@@ -24,13 +24,15 @@
 }
 */
 
- .imagens__starWars .imagens_produtos-StarWars {
-    display: flex;
-    margin-left: 1em;
+
+ .imagens__starWars, .console__imagens, .diversos__imagens { 
+    display: block;
+    margin-left: 0.5em;
+    
 }
 
-.section__star-wars {
-    margin: 0 0.5em;
+.section__star-wars , .section__console , .section__diversos {
+    margin: 0 0.8em;
 
 }
 
