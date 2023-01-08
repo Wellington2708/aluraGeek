@@ -1,0 +1,28 @@
+ .console {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em;
+    
+}
+
+.console__titulo {
+    font-family: var(--fonte-raleway700);
+    font-size: 22px;
+    color: var(--color-titulo);
+}
+
+
+ .console__imagens { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.section__console {
+    margin-top: 0.7em;
+}
+
+.produtos__console {
+    margin-top: 0.7em;
+}

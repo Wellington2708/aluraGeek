@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/starWars.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/console.css">
+    <link rel="stylesheet" href="styles/diversos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
@@ -36,48 +42,48 @@
 
     
     <section class="banner">
-        <img src="img/Hero.svg" class="banner__promocional" alt="Imagem de promoções mensais">
+        <div>
+            <img src="img/banner.jpeg" class="banner__promocional" alt="Imagem de promoções mensais">
+            <h1 class="titulo__banner">Dezembro Promocional</h1>
+            <h3 class="subtitulo__banner">Produtos selecionados com 33% de desconto</h3>
+          <!--  <input type="button" value="Ver Consoles" class="botao"><a rel="#" href="http://verconsoles.com" class="link__banner"> -->
+            <a rel="#" href="http://google.com.br" class="link__banner">Ver Consoles</a>
+
+        </div>
     </section>
 
     <!--Products Star Wars -->
     <section class="star__wars">
         <p class="star-wars__titulo">Star Wars</p>
         <div class="link-ver__tudo">
-            <a href="vertudo.com" class="ver__tudo">Ver tudo</a>
+            <a rel="#" href="vertudo.com" class="ver__tudo">Ver tudo</a>
             <img src="/img/arrow.svg" class="arrow">
         </div>
     </section>
     <section class="imagens__starWars">
-        <div class="imagens_produtos imagens_produtos1">
+        <div class="imagens__produtos">
             <img src="/img/image1.svg" class="section__star-wars" alt="Caneca do Stormtrooper">
-            <p class="produto__xyz">Produto XYZ</p>
+            <p class="nome__produto">Produto XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a  href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="imagens_produtos imagens_produtos1">
+        <div class="imagens__produtos">
             <img src="/img/image2.svg" class="section__star-wars" alt="Cabeça do Darth Vader">
-            <p class="produto__xyz">Produto XYZ</p>
+            <p class="nome__produto">Produto XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-
-        <div class="produtos__1">
-        </div>
-        <div class="produtos__2">
-        </div>
-        <div class="imagens_produtos">
-            <img src="/img/image3.svg" class="section__star-wars" alt="Boneco do Yoda">
-            <img src="/img/image4.svg" class="section__star-wars" alt="Boneco do Stormtrooper segurando uma arma">
-        </div>
-        <div class="produtos__3">
-            <p class="produto__xyz">Produto XYZ</p>
+        <div class="imagens__produtos">
+            <img src="/img/image3.svg" class="section__star-wars produtos__star-wars" alt="Boneco do Yoda">
+            <p class="nome__produto">Produto XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="produtos__4">
-            <p class="produto__xyz">Produto XYZ</p>
+        <div class="imagens__produtos">
+            <img src="/img/image4.svg" class="section__star-wars produtos__star-wars" alt="Boneco do Stormtrooper segurando uma arma">
+            <p class="nome__produto">Produto XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
     </section>
 
@@ -86,38 +92,34 @@
     <section class="console">
         <p class="console__titulo">Consoles</p>
         <div class="link-ver__tudo">
-            <a href="vertudo.com" class="ver__tudo">Ver tudo</a>
+            <a rel="#" href="vertudo.com" class="ver__tudo">Ver tudo</a>
             <img src="/img/arrow.svg" class="arrow">
         </div>
     </section>
     <section class="console__imagens">
-        <div class="imagens_produtos">
+        <div class="imagens__produtos">
             <img src="/img/ControleXYZ.svg" class="section__console" alt="Controle XYZ">
+            <p class="nome__produto">Controle XYZ</p>
+            <p class="preco">R$ 60,00</p>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
+        </div>
+        <div class="imagens__produtos">
             <img src="/img/ControleConsole XYZ.svg" class="section__console" alt="Controle e Console">
-        </div>
-        <div class="produtos__1">
-            <p class="produto__xyz">Controle XYZ</p>
+            <p class="nome__produto">Controle e console XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="produtos__2">
-            <p class="produto__xyz">Controle e console XYZ</p>
+        <div class="imagens__produtos">
+            <img src="/img/Console XYZ2.svg" class="section__console produtos__console" alt="Controle XYZ">
+            <p class="nome__produto">Console XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="imagens_produtos">
-            <img src="/img/Console XYZ2.svg" class="section__console" alt="Controle XYZ">
-            <img src="/img/Controle XYZ3.svg" class="section__console" alt="Controle XYZ">
-        </div>
-        <div class="produtos__3">
-            <p class="produto__xyz">Console XYZ</p>
+        <div class="imagens__produtos">
+            <img src="/img/Controle XYZ3.svg" class="section__console produtos__console" alt="Controle XYZ">
+            <p class="nome__produto">Controle XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
-        </div>
-        <div class="produtos__4">
-            <p class="produto__xyz">Controle XYZ</p>
-            <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
     </section>
 
@@ -127,38 +129,34 @@
     <section class="diversos">
         <p class="diversos__titulo">Diversos</p>
         <div class="link-ver__tudo">
-            <a href="vertudo.com" class="ver__tudo">Ver tudo</a>
+            <a rel="#" href="vertudo.com" class="ver__tudo">Ver tudo</a>
             <img src="/img/arrow.svg" class="arrow">
         </div>
     </section>
     <section class="diversos__imagens">
-        <div class="imagens_produtos">
+        <div class="imagens__produtos">
             <img src="/img/Camisa Atari.svg" class="section__diversos" alt="Camisa Atari">
+            <p class="nome__produto">Camisa Atari</p>
+            <p class="preco">R$ 60,00</p>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
+        </div>
+        <div class="imagens__produtos">
             <img src="/img/Camisa SNES.svg" class="section__diversos" alt="Camisa SNES">
-        </div>
-        <div class="produtos__1">
-            <p class="produto__xyz">Camisa Atari</p>
+            <p class="nome__produto">Camisa SNES</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="produtos__2">
-            <p class="produto__xyz">Camisa SNES</p>
+        <div class="imagens__produtos">
+            <img src="/img/Controle e console XYZ.svg" class="section__diversos produtos__diversos" alt="Controle XYZ">
+            <p class="nome__produto">Controle e console XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
-        <div class="imagens_produtos">
-            <img src="/img/Controle e console XYZ.svg" class="section__diversos" alt="Controle XYZ">
-            <img src="/img/Controle e console XYZ2.svg" class="section__diversos" alt="Controle XYZ">
-        </div>
-        <div class="produtos__3">
-            <p class="produto__xyz">Controle e console XYZ</p>
+        <div class="imagens__produtos">
+            <img src="/img/Controle e console XYZ2.svg" class="section__diversos produtos__diversos" alt="Controle XYZ">
+            <p class="nome__produto">Controle e console XYZ</p>
             <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
-        </div>
-        <div class="produtos__4">
-            <p class="produto__xyz">Controle e console XYZ</p>
-            <p class="preco">R$ 60,00</p>
-            <a href="Ver produto.com" class="ver__produto">Ver produto</a>
+            <a rel="#" href="Ver produto.com" class="ver__produto">Ver produto</a>
         </div>
     </section>  
 </body>

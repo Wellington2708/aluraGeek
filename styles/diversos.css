@@ -1,0 +1,27 @@
+.diversos {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+.diversos__titulo {
+    font-family: var(--fonte-raleway700);
+    font-size: 22px;
+    color: var(--color-titulo);
+}
+
+
+.diversos__imagens  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.section__diversos {
+    margin: 0;
+}
+
+.produtos__diversos {
+    margin-top: 0.7em;
+}

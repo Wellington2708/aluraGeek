@@ -1,0 +1,40 @@
+.banner__promocional {
+    width: 100vw;
+    height: 206px;
+   
+}
+
+.titulo__banner {
+    position:absolute;
+    top: 167px;
+    left: 29px;
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--fonte-raleway700);
+}
+
+.subtitulo__banner {
+    position: absolute;
+    top: 195px;
+    left: 29px;
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--fonte-raleway);
+
+}
+
+.link__banner {
+    position: absolute;
+    top: 221px;
+    left: 29px;
+    padding: 1em;
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--fonte-raleway);
+
+}
+

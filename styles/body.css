@@ -1,0 +1,31 @@
+
+.nome__produto {
+    font-family: var(--fonte-raleway500);
+    font-size: 14px;
+    color: var(--color-titulo);
+    margin-top: 0.5em;
+}
+
+.preco {
+    color: var(--color-titulo);
+    font-family: var(--fonte-raleway700);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ver__tudo , .ver__produto {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--fonte-raleway700);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ver__produto , .preco{
+    margin: 0.5em 0;
+}
+
+.ver__produto {
+    padding-bottom: 0.5em;
+}
+

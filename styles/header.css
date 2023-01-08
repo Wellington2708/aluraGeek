@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: var(--white);
+    align-items: center;   
+}
+
+
+
+.imagem__controle {
+    position: relative;
+    top: 3px;
+}
+
+
+
+.logo__geek {
+    position: absolute;
+    left: 22.5%;
+    top: 2em;
+}
+
+.login__texto {
+    border: 1px solid var(--blue);
+    padding: 1em 3.5em;
+    margin: 1em 0 1em 2em;
+    color: var(--blue);
+    font-family: var(--fonte-raleway);
+    font-size: 14px; 
+}
+
+
