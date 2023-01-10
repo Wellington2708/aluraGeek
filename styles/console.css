@@ -1,13 +1,14 @@
  .console {
     display: flex;
     justify-content: space-between;
-    padding: 2em 1em;
+    padding: 1.5em 1em;
     
 }
 
 .console__titulo {
     font-family: var(--fonte-raleway700);
     font-size: 22px;
+    font-weight: 700;
     color: var(--color-titulo);
 }
 

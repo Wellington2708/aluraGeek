@@ -21,11 +21,10 @@
     font-weight: 700;
 }
 
-.ver__produto , .preco{
+.ver__produto {
+    
+}
+
+.preco  {
     margin: 0.5em 0;
 }
-
-.ver__produto {
-    padding-bottom: 0.5em;
-}
-

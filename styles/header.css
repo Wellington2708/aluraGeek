@@ -1,33 +1,47 @@
 .cabecalho {
+    height: 4.5em;
     display: flex;
-    width: 100vw;
     justify-content: space-around;
     background-color: var(--white);
-    align-items: center;   
+    align-items: center;
+     
 }
 
 
 
 .imagem__controle {
-    position: relative;
-    top: 3px;
+    position: absolute;
+    left: 14px;
+    top: 26px;
+
 }
 
+
+.logo__alura {
+    position: absolute;
+    left: 39px;
+    top: 29px;
+}
 
 
 .logo__geek {
     position: absolute;
-    left: 22.5%;
-    top: 2em;
+    left: 75px;
+    top: 29px;
 }
 
 .login__texto {
     border: 1px solid var(--blue);
-    padding: 1em 3.5em;
-    margin: 1em 0 1em 2em;
+    padding: 12px 50px;
+    margin: 1em 0 1em 7em;
     color: var(--blue);
     font-family: var(--fonte-raleway);
     font-size: 14px; 
+    font-weight: 600;
+    
 }
 
-
+.imagem__lupa {
+    width: 17.5px;
+    height: 17.6px;
+}

@@ -1,24 +1,23 @@
 .star__wars {
     display: flex;
     justify-content: space-between;
-    padding: 2em 1em;
+    padding: 1.5em 1em;
 
 }
 
 .star-wars__titulo {
     font-family: var(--fonte-raleway700);
     font-size: 22px;
+    font-weight: 700;
     color: var(--color-titulo);
 }
 
 
  .imagens__starWars { 
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    height: 492px;
+    align-items: center;
 
-}
-
-.produtos__star-wars {
-    margin-top: 0.7em;
 }

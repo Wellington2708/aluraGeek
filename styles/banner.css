@@ -1,13 +1,17 @@
+.imagem__banner {
+    height: 192px;
+}
+
 .banner__promocional {
     width: 100vw;
-    height: 206px;
+    height: 192px;
    
 }
 
 .titulo__banner {
     position:absolute;
-    top: 167px;
-    left: 29px;
+    top: 163px;
+    left: 13px;
     color: var(--white);
     font-size: 22px;
     font-weight: 700;
@@ -16,10 +20,10 @@
 
 .subtitulo__banner {
     position: absolute;
-    top: 195px;
-    left: 29px;
+    top: 193px;
+    left: 13px;
     color: var(--white);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     font-family: var(--fonte-raleway);
 
@@ -27,14 +31,15 @@
 
 .link__banner {
     position: absolute;
-    top: 221px;
-    left: 29px;
-    padding: 1em;
+    top: 216px;
+    left: 13px;
+    padding: 12px 16px;
     background-color: var(--blue);
     color: var(--white);
     text-decoration: none;
     font-size: 14px;
     font-family: var(--fonte-raleway);
+    font-weight: 600;
 
 }
 
