@@ -15,15 +15,10 @@
 
  .console__imagens { 
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    height: 525px;
+    align-items: center;
+
     
-}
-
-.section__console {
-    margin-top: 0.7em;
-}
-
-.produtos__console {
-    margin-top: 0.7em;
 }

@@ -1,0 +1,12 @@
+.contatos {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.controle__contatos {
+    position: absolute;
+    top: 2047px;
+    left: 130px;
+}

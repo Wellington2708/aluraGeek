@@ -1,7 +1,12 @@
 
+.imagens__produtos {
+    margin-bottom: 1em;
+}
+
 .nome__produto {
     font-family: var(--fonte-raleway500);
     font-size: 14px;
+    font-weight: 500;
     color: var(--color-titulo);
     margin-top: 0.5em;
 }
@@ -11,6 +16,7 @@
     font-family: var(--fonte-raleway700);
     font-weight: 700;
     font-size: 16px;
+    margin: 0.5em 0;
 }
 
 .ver__tudo , .ver__produto {
@@ -22,9 +28,6 @@
 }
 
 .ver__produto {
-    
+    margin-bottom: 1em;
 }
 
-.preco  {
-    margin: 0.5em 0;
-}
