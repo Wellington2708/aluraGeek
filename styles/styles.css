@@ -1,6 +1,7 @@
 @import url(/header.css);
 @import url(/banner.css);
 @import url(/starWars.css);
+@import url(/contatos.css);
 
 :root {
     --white: #FFFFFF;
@@ -9,5 +10,8 @@
     --fonte-raleway700: 'Raleway', sans-serif;
     --fonte-raleway500: 'Raleway', sans-serif;
     --color-titulo: #464646;
+    --background-footer: #EAF2FD;
+    --branco: #FFFFFF;
+    --color-placeholder: #A2A2A2;
 
 }
